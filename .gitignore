@@ -1,0 +1,11 @@
+# Only source and documentation belong in this repository.
+*
+!.gitignore
+!README.md
+!R/
+!R/*.R
+!scripts/
+!scripts/*.R
+!docs/
+!docs/*.md
+!docs/*.json

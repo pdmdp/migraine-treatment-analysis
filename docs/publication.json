@@ -1,0 +1,70 @@
+{
+  "prepared_on": "2026-11-15",
+  "source": {
+    "filename": "Final.Rmd",
+    "modified_at": "2026-02-06T15:04:04.028Z",
+    "bytes": 28771,
+    "sha256": "b1b1c5d5a4d1f698572d8bc1223d6bbb90ce0b89d0bff7231421e718842b08c6",
+    "selection": "Random-intercept version consistent with the final report."
+  },
+  "extraction": {
+    "original_top_level_expressions": 255,
+    "retained_computation_expressions": 180,
+    "omitted_standalone_displays_summaries_and_plots": 75,
+    "adapted_expressions": 2,
+    "adaptations": "The two CSV readers use an explicit external input directory.",
+    "parsed_expression_comparison": "passed",
+    "other_changes": "Function wrapper, input guards, return values and concise section comments; exploratory prose omitted."
+  },
+  "verification": {
+    "r_version": "4.5.2",
+    "clinical_data_used": false,
+    "clinical_results_reproduced": false,
+    "synthetic_check": "passed",
+    "mixed_model_convergence_messages": 0,
+    "scope": [
+      "input guards",
+      "full synthetic execution",
+      "imputation exclusions",
+      "20 fits for each logistic model",
+      "finite pooled coefficients",
+      "random-intercept specifications"
+    ],
+    "observed_warnings": [
+      "40 approx() warnings about tied ROC x coordinates, from the original in-sample ROC interpolation.",
+      "MICE initialization logs SUBJECT_ID and the three excluded future variables as constant/unusable in the synthetic responder subset; these columns are explicitly excluded from imputation predictors.",
+      "emmeans uses asymptotic inference for the synthetic dataset above its default observation threshold."
+    ]
+  },
+  "installed_package_versions": {
+    "dplyr": "1.1.4",
+    "mice": "3.18.0",
+    "zoo": "1.8.14",
+    "ggplot2": "4.0.1",
+    "pROC": "1.19.0.1",
+    "car": "3.1.3",
+    "lme4": "1.1.37",
+    "lmerTest": "3.2.0",
+    "emmeans": "2.0.1"
+  },
+  "excluded_from_publication": [
+    "clinical CSV files",
+    "patient-level outputs",
+    "fitted clinical models",
+    "R workspace files",
+    "RStudio caches",
+    "original reports",
+    "clinical result figures"
+  ],
+  "authorship_reference": {
+    "title": "Migraine Treatment Dynamics: A 3-Year Clinical Data Project",
+    "pages": 8,
+    "sha256": "a53eb6446eeb4481f8508af1029665ecce251a6cd921dbb902707547770e023e",
+    "roles": {
+      "Tasks 0–1": "Matteo De Vecchi",
+      "Task 2": "Matteo Pietro Di Pilato",
+      "Task 3": "Marco Sabbadin"
+    },
+    "report_included": false
+  }
+}
