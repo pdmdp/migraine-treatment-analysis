@@ -31,3 +31,9 @@ Associations and fitted trajectories from this observational coursework do not e
 ## Publication check
 
 The executable check uses fictional values generated independently of the clinical cohort and of the report's fitted estimates. It checks input guards, completion of the computation, imputation exclusions, the number of fitted logistic models and the mixed-model random-effects structure. It does not establish that the original cohort's results can be reproduced, assess clinical validity, or test every possible missing-data pattern.
+
+## Public-code preparation
+
+The public script was extracted from `Final.Rmd`, whose random-intercept specification agrees with the final report. The November 2026 preparation removed exploratory prose, standalone displays, summaries and plotting calls, added an external input directory and wrapped the code in a function. The 180 retained computation expressions were compared with the source; only the two input-path expressions were adapted.
+
+The original files remain separate from the public repository. [Publication notes](publication.json) record the source checksum and verification scope. The dataset, fitted clinical results and original reports are not distributed with this code.
